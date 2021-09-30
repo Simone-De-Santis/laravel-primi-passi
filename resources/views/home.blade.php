@@ -11,9 +11,12 @@
 <body>
     <header>
         <h1>Welcome in my Home</h1>
-        <p>Created by {{ $creator_name }} {{ $creator_last_name }}</p>
-    </header>
+        <a href="{{ url('/blog') }}"> vai al blog</a>
 
+    </header>
+    <footer>
+        <p>Created by {{ $creator_name }} {{ $creator_last_name }}</p>
+    </footer>
 </body>
 
 </html>
