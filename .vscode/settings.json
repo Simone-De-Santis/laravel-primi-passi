@@ -1,0 +1,5 @@
+{
+    "prettier.printWidth": 50,
+    "prettier.proseWrap": "always",
+    "blade.format.enable": true
+}

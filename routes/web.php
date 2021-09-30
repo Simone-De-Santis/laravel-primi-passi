@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/blog', function () {
-    return "blooooooggggggggggggggggg";
+    return view('articles.blog');
 });
