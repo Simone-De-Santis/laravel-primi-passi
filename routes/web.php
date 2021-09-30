@@ -21,4 +21,4 @@ Route::get('/', function () {
 });
 Route::get('/blog', function () {
     return view('articles.blog');
-});
+})->name('articolo');

@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1>Welcome in my Home</h1>
-        <a href="{{ url('/blog') }}"> vai al blog</a>
+        <a href="{{ route('articolo') }}"> vai al blog</a>
 
     </header>
     <footer>
