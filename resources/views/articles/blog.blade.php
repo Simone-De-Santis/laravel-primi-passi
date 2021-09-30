@@ -167,6 +167,7 @@
             unde provident earum deleniti nemo quasi eius quae.
         </p>
     </main>
+    <a href="{{ route('home') }}">Return to home</a>
 </body>
 
 </html>

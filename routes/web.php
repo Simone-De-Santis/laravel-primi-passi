@@ -18,7 +18,7 @@ Route::get('/', function () {
     $creator_last_name = 'De Santis';
 
     return view('home', compact('creator_name', 'creator_last_name'));
-});
+})->name('home');
 Route::get('/blog', function () {
     return view('articles.blog');
 })->name('articolo');
