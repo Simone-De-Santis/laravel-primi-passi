@@ -11,6 +11,7 @@
 <body>
     <header>
         <h1>Welcome in my Home</h1>
+        <p>Created by {{ $creator_name }} {{ $creator_last_name }}</p>
     </header>
 
 </body>

@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $creator_name = 'Simone';
+    $creator_last_name = 'De Santis';
+
+    return view('home', compact('creator_name', 'creator_last_name'));
 });
 Route::get('/blog', function () {
     return view('articles.blog');
